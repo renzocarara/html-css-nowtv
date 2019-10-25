@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 28px;
+}
+
 .button {
     border-radius: 28px;
     border: 1px solid white;
@@ -160,7 +164,6 @@ header {
 }
 
 #vantaggi h2 {
-    font-size: 28px;
     padding-bottom: 30px;
 }
 
@@ -178,10 +181,23 @@ header {
 /* *************** */
 #sport {
     background-color: #1c5eea;
-    padding: 40px 0;
+    padding: 35px 0 50px;
     text-align: center;
     color: #fff;
-    height: 500px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#sport img {
+    text-align: center;
+    max-width: 100%;
+}
+
+#sport a {
+    padding: 10px 35px;
+    font-size: 14px;
 }
 
 /* ****************** */
@@ -192,7 +208,6 @@ header {
     padding: 40px 0;
     text-align: center;
     color: #fff;
-    height: 100px;
 }
 
 /* ****************** */
