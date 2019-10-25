@@ -210,6 +210,15 @@ h3 {
     color: #fff;
 }
 
+#smart-stick p {
+    padding: 10px 0 70px;
+}
+
+#smart-stick img {
+    text-align: center;
+    max-width: 100%;
+}
+
 /* ****************** */
 /* ***** footer ***** */
 /* ****************** */
