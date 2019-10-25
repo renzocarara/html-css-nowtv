@@ -27,9 +27,11 @@ a {
 main {
     padding-top: 60px;
 }
-/*** fine regole layout base ***/
 
+/*** fine regole layout base ***/
+/* ********** */
 /*** header ***/
+/* ********** */
 header {
     background-color: #FFB100;
     height: 60px;
@@ -53,7 +55,7 @@ header {
 }
 
 #accedi {
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
     color: white;
     padding: 8px 16px;
     line-height: 60px;
@@ -66,12 +68,13 @@ header {
     margin-right: 5px;
     font-size: 12px;
 }
-/*** fine header ***/
 
-/*** jumbo ***/
+/* ********** */
+/* * jumbo ** */
+/* ********** */
 #jumbo {
-    background-color: #FFB100;
     height: 900px;
+    background-color: #FFB100;
     padding-right: 60px;
     padding-bottom: 80px;
 }
@@ -112,11 +115,11 @@ header {
     margin-top: 30px;
 }
 
-/*** fine jumbo ***/
-
-/*** ribbon ***/
+/* ********** */
+/* * ribbon * */
+/* ********** */
 #ribbon {
-    background-color:  #680091;
+    background-color: #680091;
     height: 70px;
 }
 
@@ -139,6 +142,68 @@ header {
 
 #movies .col-lg-3:last-child img {
     border-right: none;
+}
+
+/* *************** */
+/* *** vantaggi ** */
+/* *************** */
+#vantaggi {
+    background-color: #022b42;
+    padding-top: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+#vantaggi img {
+    width: 90px;
+    height: 90px;
+}
+
+#vantaggi h2 {
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+#vantaggi h3 {
+    padding: 15px 0;
+}
+
+#vantaggi p {
+    font-size: 14px;
+    padding: 0 20px 80px 20px;
+}
+
+/* *************** */
+/* **** sport **** */
+/* *************** */
+#sport {
+    background-color: #1c5eea;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+}
+
+/* ****************** */
+/* *** smart-stick ** */
+/* ****************** */
+#smart-stick {
+    background-color: #003366;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+}
+
+/* ****************** */
+/* ***** footer ***** */
+/* ****************** */
+footer {
+    padding: 40px 0;
+    background-color: #1c1c21;
+    /* text-align: center; */
+    color: #fff;
+    height: 500px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -180,7 +245,6 @@ header {
 }
 
 @media screen and (max-width: 1023px) {
-
     #accedi {
         background: transparent;
         margin-right: 0;
@@ -207,8 +271,11 @@ header {
     }
 }
 
-@media screen and (max-width: 767px) {
+/* xsmall mobile*/
+@media screen and (max-width: 420px) {}
 
+/* mobile */
+@media screen and (max-width: 767px) {
     header {
         height: 50px;
     }
