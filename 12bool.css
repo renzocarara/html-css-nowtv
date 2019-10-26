@@ -124,7 +124,7 @@
 
 @media screen and (max-width:1200px) {
     .container {
-        width: 950px;
+        width: 960px;
     }
 }
 
@@ -235,7 +235,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .container {
         width: 100%;
         padding: 0 15px;
