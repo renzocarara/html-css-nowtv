@@ -58,6 +58,10 @@ header {
     text-align: right;
 }
 
+#accedi-container .button {
+    margin-right: 10px;
+}
+
 #accedi {
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
@@ -258,6 +262,18 @@ footer p {
     color: white
 }
 
+.sticky-ribbon {
+    display: none;
+    text-align: center;
+    line-height: 60px;
+    background-color: #233252;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
@@ -395,5 +411,16 @@ footer p {
     .footer-container div:nth-child(2) ul li:last-child {
         border-bottom: 0;
     }
-}
+
+    #accedi-container a.button {
+        display: none;
+    }
+
+    .sticky-ribbon {
+        display: block
+    }
+
+    footer {
+        margin-bottom: 60px;
+    }
 }
