@@ -143,13 +143,18 @@ header {
     font-weight: normal;
 }
 
+/* *************** */
+/* *** movies **** */
+/* *************** */
 #movies img {
     max-width: 100%;
     border-right: 5px solid white;
+    /* hack per rimuovere spazio indesiderato di 4px in fondo al div */
+    margin-bottom: -4px;
 }
 
 #movies .col-lg-3:last-child img {
-    border-right: none;
+    /* border-right: none; */
 }
 
 /* *************** */
@@ -248,11 +253,13 @@ footer p {
     color: grey;
 }
 
+/* social icons */
 .footer-container div:nth-child(4) ul li {
     display: inline-block;
     padding-right: 15px;
 }
 
+/* copyright */
 .footer-container div:nth-child(5) p:first-child {
     padding-top: 30px;
 }
@@ -349,7 +356,7 @@ footer p {
     .footer-container div:nth-child(3) ul li {
         border-bottom: 1px solid #808080;
         padding: 13px 0;
-        margin: 0 25px;
+        margin: 0 15px;
     }
 
     .footer-container div:nth-child(2) ul li:first-child,
